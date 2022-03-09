@@ -32,11 +32,12 @@ body {
     display: flex;
     width: 1100px;
     margin: 0 auto;
+    justify-content: space-around;
 }
 
 .cards {    
     border-radius: 10px;
-    width: 30%;
+    width: 40%;
     height: 600px;
     margin: 20px;
     background-color: rgba(238, 243, 245, 0.89);
@@ -75,6 +76,7 @@ body {
 }
 .desc {
     min-height: 200px;
+    max-height: 300px;
     margin: 20px 10px 20px 10px;
     padding: 10px;
     background-color: rgb(221, 232, 248);
